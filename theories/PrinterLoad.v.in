@@ -1,0 +1,13 @@
+Add ML Path "%{lib}%/sexplib0".
+Add ML Path "%{lib}%/parsexp".
+Add ML Path "%{lib}%/sexplib".
+Add ML Path "%{lib}%/easy-format".
+Add ML Path "%{lib}%/biniou".
+Add ML Path "%{lib}%/yojson".
+Add ML Path "%{lib}%/sexplib".
+Add ML Path "%{lib}%/ppx_deriving/runtime".
+Add ML Path "%{lib}%/ppx_deriving_yojson/runtime".
+Add ML Path "%{lib}%/coq-serapi/serlib".
+Add ML Path "%{lib}%/coq-serapi/serlib/ltac".
+
+Require Import SerapiTest.Printer.

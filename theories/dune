@@ -1,0 +1,8 @@
+(coq.theory
+ (name SerapiTest)
+ (package coq-serapi-test)
+ (flags -q -noinit)
+ (libraries
+   coq-serapi-test.plugin
+ )
+)

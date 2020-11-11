@@ -1,0 +1,12 @@
+(library
+ (name serapi_test_plugin)
+ (public_name coq-serapi-test.plugin)
+ (flags :standard -rectypes -w -27 -warn-error -A)
+ (modules (
+   "trivial_test"
+ ))
+ (libraries
+   coq.plugins.ltac
+   coq-serapi.serlib.ltac
+ )
+)

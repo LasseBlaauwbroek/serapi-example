@@ -1,0 +1,19 @@
+opam-version: "2.0"
+name: "serapi-test"
+version: "dev"
+description: "Bla."
+maintainer: "blah"
+homepage: "blah"
+bug-reports: "blah"
+authors: "blah"
+depends: [
+  "ocaml"
+  "dune" {>= "2.5"}
+  "coq"
+]
+substs: [
+  "theories/PrinterLoad.v"
+]
+build: [
+  ["dune" "build" "--release" "-j" jobs]
+]
