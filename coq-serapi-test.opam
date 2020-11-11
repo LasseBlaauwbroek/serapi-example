@@ -10,6 +10,7 @@ depends: [
   "ocaml"
   "dune" {>= "2.5"}
   "coq"
+  "coq-serapi"
 ]
 substs: [
   "theories/PrinterLoad.v"
